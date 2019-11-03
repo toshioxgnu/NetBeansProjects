@@ -15,13 +15,13 @@ public class main {
         Docente docente = new Docente("Contabilidad","Mauricio",57);
         Funcionario funcionario = new Funcionario("Casino","Armando", 78);
         
-        System.out.println("Estudiante: \n" +"\nnombre"+estudiante.getNombre() +
+        System.out.println("Estudiante: \n" +"\nNombre: "+estudiante.getNombre() +
                 "\nEdad: " + estudiante.getEdad() +
                 "\nCarrera:" + estudiante.getCarrera());
-         System.out.println("Docente:\n" +"\nnombre"+docente.getNombre() +
+         System.out.println("Docente:\n" +"\nNombre: "+docente.getNombre() +
                 "\nEdad: " + docente.getEdad() +
                 "\nCarrera:" + docente.getCarrera());
-          System.out.println("Funcionario: \n" +"\nnombre"+funcionario.getNombre() +
+          System.out.println("Funcionario: \n" +"\nNombre: "+funcionario.getNombre() +
                 "\nEdad: " + funcionario.getEdad() +
                 "\nCarrera:" + funcionario.getFuncion());
           
