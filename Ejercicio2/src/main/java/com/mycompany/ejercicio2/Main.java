@@ -15,7 +15,6 @@ public class Main {
         int opcion;
         
         do{
-            System.out.println("Ingrese Opcion");
             System.out.println("========Menu========"+
                     "\n 1.- Mostra ventas."+
                     "\n 2.- Agregar Datos."+
